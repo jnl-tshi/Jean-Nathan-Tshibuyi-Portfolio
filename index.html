@@ -114,6 +114,14 @@ initTheme();
 <div id="lightbox" onclick="this.style.display='none'">
   <img id="lightbox-img" alt="">
 </div>
+
+<script>
+  function openLightbox(el){
+  const box=document.getElementById('lightbox');
+  document.getElementById('lightbox-img').src=el.src;
+  box.style.display='grid';
+  }
+</script>
   
   <!-- EXPERIENCE -->
   <section id="experience">
