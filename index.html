@@ -101,6 +101,20 @@ initTheme();
     </div>
   </section>
 
+<section id="projects">
+  <h2>Project Gallery</h2>
+  <div class="gallery">
+    <img src="projects/dashboard1.jpg" alt="Tableau KPI dashboard" onclick="openLightbox(this)">
+    <img src="projects/rov.jpg" alt="ROV gripping arm" onclick="openLightbox(this)">
+    <img src="projects/nr14.jpg" alt="NR14 electric vehicle" onclick="openLightbox(this)">
+  </div>
+</section>
+
+<!-- lightbox markup once -->
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="lightbox-img" alt="">
+</div>
+  
   <!-- EXPERIENCE -->
   <section id="experience">
     <h2>Experience</h2>
